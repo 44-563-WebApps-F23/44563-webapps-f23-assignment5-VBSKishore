@@ -4,6 +4,10 @@
 <head>
     <title>Visit Cities</title>
     <link rel="Stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,6 +30,7 @@
           </div>
         </div>
       </nav>
+   
     <div class="container">
         <div class="row">
             <div class="col-sm-2" style="background-color: aliceblue;color:orange;">V</div>
@@ -143,15 +148,15 @@
         </div>
     </div>
 
-    <h4 class="display-4">Dropdown</h4>
+    <h4 class="display-4">Drop Down Button</h4>
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Bootstrap pages
+            Drop Down
         </button>
         <div class="dropdown-menu">
             <ul>
-                <li><a class="dropdown-item" href="basic.html">Basic</a></li>
-                <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+                <li><a class="dropdown-item" href="basic.html">Basic link</a></li>
+                <li><a class="dropdown-item" href="advanced.html">Advanced link</a></li>
             </ul>
         </div>
     </div>
@@ -164,31 +169,32 @@
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+            <label for="exampleInputPassword1" class="form-label">City</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter city name">
         </div>
         <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Sign Up</label>
+            <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    <div class="container">
     <div class="col-sm-3 mb-3 mb-sm-0">
         <div class="card" style="width: 18rem;">
-            <img src="agra.jpeg" class="card-img-top" alt="...">
+            <img src="agra.jpeg" class="card-img-top" alt="..." length="200" width="200">
             <div class="card-body">
                 <h5 class="card-title">Agra City</h5>
                 <p class="card-text">Agra is a city on the banks of the Yamuna river in the Indian state of Uttar
                     Pradesh,
                     about 230 kilometres (140 mi) south-east of the national capital Delhi and 330 km west of the state
                     capital Lucknow</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="https://en.wikipedia.org/wiki/Agra" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
     </div>
     <div class="col-sm-3 mb-3 mb-sm-0">
         <div class="card" style="width: 18rem;">
-            <img src="utica.jpeg" class="card-img-top" alt="...">
+            <img src="utica.jpeg" class="card-img-top" alt="..." length="200" width="200">
             <div class="card-body">
                 <h5 class="card-title">Utica</h5>
                 <p class="card-text">Utica, city, seat (1798) of Oneida county, central New York, U.S.,
@@ -196,12 +202,13 @@
                     The first settlers were Dutch and Palatinate Germans, and in 1758 the British built Old Fort
                     Schuyler,
                     near the site of an ancient Oneida Indian council stone.</p>
+                    <a href="https://en.wikipedia.org/wiki/Utica,_New_York" class="btn btn-primary">Link</a>
             </div>
         </div>
     </div>
     <div class="col-sm-3 mb-3 mb-sm-0">
         <div class="card" style="width: 18rem;">
-            <img src="trivandram.jpeg" class="card-img-top" alt="trivandram">
+            <img src="trivandram.jpeg" class="card-img-top" alt="trivandram" length="200" width="200">
             <div class="card-body">
                 <h5 class="card-title">Trivandram</h5>
                 <p class="card-text">It is the most populous city in Kerala with a population of 957,730 as of 2011.
@@ -209,9 +216,11 @@
                     Located on the west coast of India near the extreme south of the mainland, Thiruvananthapuram is a
                     major information technology hub in
                     Kerala and contributes 55% of the state's software exports as of 2016.</p>
+                    <a href="https://en.wikipedia.org/wiki/Thiruvananthapuram" class="btn btn-primary">Link</a>
             </div>
         </div>
     </div>
+</div>
 
 
 
